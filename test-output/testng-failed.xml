@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="orange-hrm(failed)">
+    <classes>
+      <class name="com.orangehrmlive.demo.testsuite.UsersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyThatAdminShouldDeleteTheUserSuccessFully"/>
+          <include name="inIt"/>
+        </methods>
+      </class> <!-- com.orangehrmlive.demo.testsuite.UsersTest -->
+    </classes>
+  </test> <!-- orange-hrm(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

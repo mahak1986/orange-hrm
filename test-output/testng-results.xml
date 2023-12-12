@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-12T16:10:19 GMT" name="Default Suite" finished-at="2023-12-12T16:10:43 GMT" duration-ms="23964">
+    <groups>
+      <group name="regression">
+        <method signature="UsersTest.verifyThatAdminShouldDeleteTheUserSuccessFully()[pri:0, instance:com.orangehrmlive.demo.testsuite.UsersTest@54c562f7]" name="verifyThatAdminShouldDeleteTheUserSuccessFully" class="com.orangehrmlive.demo.testsuite.UsersTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-12-12T16:10:19 GMT" name="orange-hrm" finished-at="2023-12-12T16:10:43 GMT" duration-ms="23964">
+      <class name="com.orangehrmlive.demo.testsuite.UsersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrmlive.demo.testsuite.UsersTest@54c562f7]" started-at="2023-12-12T16:10:20 GMT" name="setUp" finished-at="2023-12-12T16:10:22 GMT" duration-ms="2696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.orangehrmlive.demo.testsuite.UsersTest@54c562f7]" started-at="2023-12-12T16:10:22 GMT" name="inIt" finished-at="2023-12-12T16:10:22 GMT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatAdminShouldDeleteTheUserSuccessFully()[pri:0, instance:com.orangehrmlive.demo.testsuite.UsersTest@54c562f7]" started-at="2023-12-12T16:10:22 GMT" name="verifyThatAdminShouldDeleteTheUserSuccessFully" finished-at="2023-12-12T16:10:43 GMT" duration-ms="20723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatAdminShouldDeleteTheUserSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrmlive.demo.testsuite.UsersTest@54c562f7]" started-at="2023-12-12T16:10:43 GMT" name="tearDown" finished-at="2023-12-12T16:10:43 GMT" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.demo.testsuite.UsersTest -->
+    </test> <!-- orange-hrm -->
+  </suite> <!-- Default Suite -->
+</testng-results>
